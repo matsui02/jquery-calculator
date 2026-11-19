@@ -1,0 +1,34 @@
+.calculator {
+  max-width: 300px;
+  height: auto;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.result {
+  width: 100%;
+  height: auto;
+  font-size: 25px;
+  background-color: #000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 5px;
+}
+
+.row:last-child {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.button {
+  padding: 5px 20px;
+}
