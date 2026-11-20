@@ -2,18 +2,18 @@
 <html lang="ja">
   <head>
     <meta charset="utf-8" />
-    <title>ストップウォッチ</title>
+    <title>電卓</title>
     <link rel="stylesheet" href="main.css" />
     <!-- jQuery を使う場合は読み込む -->
-    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script> -->
   </head>
   <body>
     <!-- ここに表示部分とボタンを書いていきましょう -->
     <div class="calculator">
-      <div class="result">0</div>
+      <div id="result" class="result">0</div>
       <div class="wrapper">
         <div class="row">
-          <button class="button">7</button>
+          <button id="button07" class="button">7</button>
           <button class="button">8</button>
           <button class="button">9</button>
           <button class="button">+</button>
@@ -34,11 +34,11 @@
           <button class="button">0</button>
           <button class="button">00</button>
           <button class="button">.</button>
-          <button class="divide">/</button>
+          <button class="button">/</button>
         </div>
         <div class="row">
-          <button class="clear">AC</button>
-          <button class="equal">=</button>
+          <button class="button">AC</button>
+          <button class="button">=</button>
         </div>
       </div>
     </div>

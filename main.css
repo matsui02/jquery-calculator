@@ -2,15 +2,15 @@
   max-width: 300px;
   height: auto;
   margin: 0 auto;
-  display: flex;
-  flex-direction: column;
-  gap: 3px;
 }
 
 .result {
-  width: 100%;
+  width: calc(100% + padding * 2);
   height: auto;
-  font-size: 25px;
+  padding: 5px;
+  font-size: 20px;
+  text-align: right;
+  color: #fff;
   background-color: #000;
 }
 
@@ -23,6 +23,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 5px;
+  margin-top: 3px;
 }
 
 .row:last-child {
